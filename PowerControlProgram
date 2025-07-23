@@ -143,7 +143,7 @@ Func<float, string> wattage = w =>
     }
 };
 
-public Program_OLD()
+public Program()
 {
     if (!en)
         region = System.Globalization.CultureInfo.GetCultureInfo("de-DE");
