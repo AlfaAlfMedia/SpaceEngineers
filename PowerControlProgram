@@ -1544,7 +1544,7 @@ class SpriteLayout
         fontSize *= 0.75f;
         position.Y = SurfaceArea.Position.Y + SurfaceArea.Height - nameSize.Y;
         position.X = SurfaceArea.Position.X + (SurfaceArea.Width / 2);
-        Write(selectedName, MainColor, TextAlignment.CENTER);
+        if (main) Write(selectedName, MainColor, TextAlignment.CENTER);
         fontSize /= 0.75f;
     }
 
